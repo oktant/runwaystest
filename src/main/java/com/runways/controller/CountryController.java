@@ -28,7 +28,6 @@ public class CountryController {
     @RequestMapping(value = {"/index", "/"}, method = RequestMethod.GET)
     public String index() {
 
-        System.out.println("test");
         return "index";
     }
 
